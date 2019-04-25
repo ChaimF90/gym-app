@@ -15,4 +15,10 @@ app.get("/about", aboutHandler);
 
 app.get("/home", homeHandler);
 
-app.listen(5000, () => console.log("server is running on port 5000"));
+// function whenRunning() {
+//     console.log("server is running on port 5000");
+// }
+
+// app.listen(5000, whenRunning);
+
+app.listen(5000, () => console.log("Server is running on port 5000"));
