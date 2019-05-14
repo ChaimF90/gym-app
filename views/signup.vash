@@ -12,11 +12,11 @@
   <form class="flex-container">
     <div class="input-container">
       <label class="left" for="firstname">First Name</label>
-      <input class="right" type="text" id="signup_bdr" name="FirstName" placeholder="First Name">
+      <input class="right signup_bdr" type="text" id="firstName" name="FirstName" placeholder="First Name">
     </div>
     <div class="input-container">
       <label class="left" for="lastname">Last Name</label>
-      <input class="right" type="text" id="signup_bdr" name="LastName" placeholder="Last Name">
+      <input class="right signup_bdr" type="text" name="LastName" placeholder="Last Name">
     </div>
     <div class="input-container">
       <label class="left" for="email">Email</label>
@@ -45,5 +45,6 @@
     </div>
   </form>
 </div>
+<script src="scripts/signup.js"></script>
 </body>
 </html>
