@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="styles/signup.css">
+  <meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet">
+  <title>Sign Up</title>
+</head>
+<body>
+<h1>Sign Up</h1>
+<div>
+  <form class="flex-container">
+    <div class="input-container">
+      <label class="left" for="firstname">First Name</label>
+      <input class="right" type="text" id="signup_bdr" name="FirstName" placeholder="First Name">
+    </div>
+    <div class="input-container">
+      <label class="left" for="lastname">Last Name</label>
+      <input class="right" type="text" id="signup_bdr" name="LastName" placeholder="Last Name">
+    </div>
+    <div class="input-container">
+      <label class="left" for="email">Email</label>
+      <input class="right" type="email" id="signup_bdr" name="email" placeholder="Email">
+    </div>
+    <div class="input-container">
+      <label class="left" for="email">Confirm Email</label>
+      <input class="right" type="email" id="signup_bdr" name="email" placeholder="Confirm Email">
+    </div>
+      <div class="input-container">
+      <label class="left" for="username">Username</label>
+      <input class="right" type="text" id="signup_bdr" name="username" placeholder="Username">
+    </div>
+    <div class="input-container">
+      <label class="left" for="pass">Password</label>
+      <input class="right" type="password" id="signup_bdr" name="password" placeholder="Password">
+    </div>
+     <div class="input-container">
+      <label class="left" for="pass">Confirm Password</label>
+      <input class="right" type="password" id="signup_bdr" name="password" placeholder="Confirm Password">
+    </div>
+    <div class = "chkbx">
+    <input type="checkbox" name="terms" value="terms"> I agree to <a href="#">Terms</a>
+    </div>
+      <button class="register-btn">Register</button>
+    </div>
+  </form>
+</div>
+</body>
+</html>

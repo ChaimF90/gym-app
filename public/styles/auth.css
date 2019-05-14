@@ -1,0 +1,61 @@
+body {
+  max-width: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  margin: 15% 0 0 0;
+}
+h1 {
+  text-align: center;
+  font-weight: 300;
+  
+}
+.outer-rec {
+  text-align: center;
+  border: 1px solid black;
+  width: 250px;
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 3%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container {
+  display: flex;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  padding-left: 30%;
+}
+
+.left {
+  width: 25%;
+  padding: 5%;
+}
+
+.right {
+  flex: 1;
+  padding: 5%;
+  margin: 5%;
+}
+
+.login-btn {
+  border: 1px solid black;
+  width: 50%;
+  padding: 10px 0 10px 0;
+  margin-left: 10%;
+}
+
+#un-p-l {
+  border: 1px solid black;
+  min-width: 30%;
+  margin: 2% auto;
+}
+.signup-link {
+  text-align: center;
+}

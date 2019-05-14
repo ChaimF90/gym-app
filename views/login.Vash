@@ -1,0 +1,34 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="styles/auth.css">
+  <meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet">
+
+  <title>Login</title>
+
+</head>
+
+<body>
+<h1>Sign In</h1>
+<div class = "outer-rec">
+  <form class="flex-container">
+    <div class="input-container">
+      <label class="left" for="username">Username:</label>
+      <input class="right" type="text" id="un-p-l" name="username" placeholder="Username">
+    </div>
+    <div class="input-container">
+      <label class="left" for="pass">Password:</label>
+      <input class="right" type="password" id="un-p-l" name="password" placeholder="Password">
+    </div>
+    <div class="btn-container">
+      <button class="login-btn">Login</button>
+    </div>
+  </form>
+</div>
+<div class = "newuser">
+  <h6 class="signup-link">Not Registered? <a href="#">Sign up Now!</a></h6>
+</div>
+</body>
+</html>

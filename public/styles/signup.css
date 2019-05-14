@@ -1,0 +1,47 @@
+body {
+  max-width: 70%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  margin: 15% 0 0 10%;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 300;
+}
+#signup_bdr{
+  border: 1px solid black;
+  margin: 10px 30px 0px 30px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container {
+  display: flex;
+}
+
+.left {
+  width: 25%;
+  padding-left: 10%;
+}
+
+.right {
+  flex: 1;
+  padding: 7px;
+  /* margin: 5%; */
+}
+
+.chkbx{
+  text-align: center;
+  margin: 10px 0 10px 30%;
+}
+
+.register-btn {
+  border: 1px solid black;
+  width: 40%;
+  padding: 10px 0 10px 0;
+  margin-left: 45%;
+}
